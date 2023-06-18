@@ -1,0 +1,3 @@
+type FormPencarianJemaat = {
+	nama: string
+}
