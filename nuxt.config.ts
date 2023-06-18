@@ -6,7 +6,8 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
-      apiHost: 'http://localhost/api/app'
+      // apiHost: 'http://localhost/api/app'
+      apiHost: 'https://app.gmitdiaspora.org/api/app'
     }
   },
   alias: {
