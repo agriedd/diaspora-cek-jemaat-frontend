@@ -1,12 +1,12 @@
 {
-  "name": "nuxt-app",
+  "name": "diaspora-app",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "build": "node_modules/.bin/nuxt build",
+    "dev": "node_modules/.bin/nuxt dev",
+    "generate": "node_modules/.bin/nuxt generate",
+    "preview": "node_modules/.bin/nuxt preview",
+    "postinstall": "node_modules/.bin/nuxt prepare"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
